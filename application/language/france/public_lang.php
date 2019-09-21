@@ -111,3 +111,4 @@ $lang['make_it_easy'] ='Emettre à 5 factures chaque mois gratuitement!';
 $lang['reg_for_free_use_for'] = "Créer et envoyer des factures le premier mois gratuitement avec le plan le plus élevé, alors seulement pour 50 € par an. L'inscription prend 1 minute";
 $lang['issue_to_5'] = 'Emettre à 5 factures chaque mois gratuitement!';
 $lang['security'] = 'Sécurité et Cryptage';
+$lang['trusted_us'] = 'Plus de 1000 comptables dans le monde nous ont fait confiance';

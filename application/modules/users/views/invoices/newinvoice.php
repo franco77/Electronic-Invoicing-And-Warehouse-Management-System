@@ -11,7 +11,7 @@
     </div> 
 </div>
 <?php if ($this->permissions->hasPerm('perm_add_invoice') && $editId == 0 || $this->permissions->hasPerm('perm_edit_invoice') && $editId > 0) { ?>
-    <?php if ($planUnits['num_invoices'] > 0 || ($planUnits['num_invoices'] == 0 && $editId > 0)) { ?>
+    <?php if ($planUnits['num_invoices'] > 0 || $planUnits['num_invoices'] == -1 || ($planUnits['num_invoices'] == 0 && $editId > 0)) { ?>
         <form action="" id="setInvoiceForm" class="site-form" method="POST">
             <div class="inner-page-menu">
                 <a href="<?= lang_url('user/settings/invoices') ?>" class="btn btn-blue">

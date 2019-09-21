@@ -6,7 +6,7 @@
                     <div class="col-sm-3">
                         <h4><?= lang('support_footer') ?></h4>
                         <ul>
-                            <li><a href="mailto:support@domain.com">support@domain.com</a> - 24/7</li>
+                            <li><a href="mailto:support@pamticket.com">support@pamticket.com</a> - 24/7</li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
@@ -28,13 +28,7 @@
                         <h4><?= lang('payment_methods') ?></h4>
                         <div class="payments"> 
                             <img src="<?= base_url('assets/public/imgs/paypal-payment.png') ?>" alt="pminvoice.com paypal payment">
-                            <img src="<?= base_url('assets/public/imgs/discover-card.png') ?>" alt="pminvoice.com payment">
-                            <img src="<?= base_url('assets/public/imgs/amex-card.png') ?>" alt="pminvoice.com payment">
-                            <img src="<?= base_url('assets/public/imgs/visa-debit-card-logo.png') ?>" alt="pminvoice.com payment">
-                            <img src="<?= base_url('assets/public/imgs/master-card-icon-4.jpg') ?>" alt="pminvoice.com payment">
-                            <img src="<?= base_url('assets/public/imgs/payment_method_card_visa-512.png') ?>" alt="pminvoice.com payment">
-							<img src="<?= base_url('assets/public/imgs/icon_cc-logo_jcb.png') ?>" alt="pminvoice.com payment">
-							<img src="<?= base_url('assets/public/imgs/icon_cc-logo_dinersclub.png') ?>" alt="pminvoice.com payment">
+                            <img src="<?= base_url('assets/public/imgs/sms-payment.png') ?>" alt="pminvoice.com sms payment">
                         </div>
                     </div>
                 </div>
@@ -44,7 +38,7 @@
     <div class="footer-bottom">
         <div class="bottom-inner">
             <div class="container">
-                <span>invoicepro.fr © 2018</span>
+                <span>pminvoice.com© <?= date('Y') ?></span>
             </div>
         </div>
     </div>

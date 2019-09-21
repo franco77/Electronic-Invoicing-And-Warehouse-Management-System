@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 }
 ?>
 <footer>
-    © InvoicePro.fr Copyright 2018. All Rights Reserved.
+    © PMInvoice.com Copyright <?= date('Y') ?>. All Rights Reserved.
 </footer>
 </div> 
 </div> 

@@ -31,7 +31,7 @@ class Plans
          */
         if ($myPlanUnits['num_invoices'] == null && $myPlanUnits['num_firms'] == null) {
             $myPlanUnits['num_invoices'] = $this->calculateFreePlanLeftNumInvoices();
-            $myPlanUnits['num_firms'] = 1;
+            $myPlanUnits['num_firms'] = 10; // free users can have 10 free companies like a paid users
         }
         return $myPlanUnits;
     }

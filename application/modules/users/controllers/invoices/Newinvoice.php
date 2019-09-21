@@ -114,9 +114,10 @@ class Newinvoice extends USER_Controller
                 /*
                  * prevent from "hackers" to send 
                  * POST information when dont have plan
+                 * -1 is the unlimited option
                  */
                 $planUnits = $this->planUnits;
-                if ($planUnits['num_invoices'] > 0) {
+                if ($planUnits['num_invoices'] > 0 || $planUnits['num_invoices'] == -1) {
                     $this->NewInvoiceModel->setInvoice($_POST);
                     $this->setDocumentPointer($_POST['inv_number']); //optional
                 } else {

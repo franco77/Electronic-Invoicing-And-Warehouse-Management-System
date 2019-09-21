@@ -210,7 +210,7 @@ class PublicModel extends CI_Model
                     'from_date' => time(),
                     'to_date' => strtotime("+1 month", time()),
                     'plan_type' => 'PRO',
-                    'num_invoices' => 3000,
+                    'num_invoices' => -1,
                     'num_firms' => 10,
                     'time' => time(),
                     'sponsored' => 1

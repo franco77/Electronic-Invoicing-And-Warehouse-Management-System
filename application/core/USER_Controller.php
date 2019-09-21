@@ -6,7 +6,7 @@ class USER_Controller extends HEAD_Controller
     private $firms;
     protected $firmInfo;
     public $userInfo;
-    public $planUnits;
+    public $planUnits; // -1 for invoices is the unlimited option
 
     public function __construct()
     {

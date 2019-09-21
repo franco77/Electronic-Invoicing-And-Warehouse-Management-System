@@ -36,8 +36,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <?= lang('have_support') ?> <span><?= lang('every_day_and_hour') ?></span>.
                         </p>
                     </div>
-                    <div class="pull-right right-side-ca-2 hidden-xs"> 
-                        <h4 class="text-right"><?= lang('make_it_easy') ?></h4>
+                    <div class="pull-right right-side-ca-2 hidden-xs">
+                        <img src="<?= base_url('assets/public/imgs/el_invoice_img.png') ?>" class="img-responsive el-invoices-img" alt="electronic invoices pminvoice.com">
                     </div>
                 </div>
             </div>
@@ -191,4 +191,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
         </div>      
     </div>
-</div> 
+</div>
+<p class="trusted-us"><?= lang('trusted_us') ?></p>

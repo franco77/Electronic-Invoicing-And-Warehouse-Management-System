@@ -1,6 +1,6 @@
 <?php
 
-$lang['title_home'] = 'Electronic invoices, Send by email, Store for a long time';
+$lang['title_home'] = 'Electronic invoices, Send by email, Store secure for a long time';
 $lang['description_home'] = 'Start issuing and sending electronic invoices. Free registration for 1 minute';
 
 $lang['title_contact'] = 'Contact us - invoicepro.fr';

@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <?php if (!defined('EMPLOYEE_ID')) { ?>
                                     <li><a href="<?= lang_url('user/admin') ?>"><?= lang('usr_admin_menu') ?></a></li>
                                 <?php } ?>
-                                <li><a href="<?= lang_url('user/plans') ?>"><?= lang('plans') ?></a></li>
+                                <li class="hidden"><a href="<?= lang_url('user/plans') ?>"><?= lang('plans') ?></a></li>
                                 <li><a class="logout" href="<?= lang_url('user/logout') ?>"><?= lang('logout') ?></a></li>
                             </ul>
                             <?php
@@ -111,7 +111,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="col-sm-6 col-stats">
                                     <div class="stats">
                                         <div class="stat">
-                                            <span class="sprite-inv-docs icon"></span> <span class="num"><?= $planUnits['num_invoices'] ?></span> <?= lang('documents') ?>
+                                            <span class="sprite-inv-docs icon"></span> <span class="num"><?= $planUnits['num_invoices'] >= 0 ? $planUnits['num_invoices'] : 'Unlimited' ?></span> <?= lang('documents') ?>
                                         </div>
                                         <div class="stat">
                                             <span class="sprite-companies icon"></span> <span class="num"><?= $planUnits['num_firms'] >= count($myFirms) ? $planUnits['num_firms'] - count($myFirms) : 0 ?></span> <?= lang('companies') ?>

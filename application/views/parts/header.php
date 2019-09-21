@@ -29,7 +29,7 @@
                                 <form method="POST" action="<?= lang_url('login') ?>">
                                     <div class="form-group">
                                         <span><?= lang('login_email') ?></span>
-                                        <input type="text" name="email" placeholder="name@example.com" class="my-addr">
+                                        <input type="text" name="email" placeholder="name@domain.com" class="my-addr">
                                     </div>
                                     <div class="form-group">
                                         <span><?= lang('login_pass') ?></span>
@@ -42,13 +42,14 @@
                                         </div>
                                     </div>
                                 </form>
+                                <a href="<?= lang_url('user') ?>" class="btn btn-orange btn-top-logme-xs"><?= lang('btn_logme') ?></a>
                             <?php } else { ?>
                             <a href="<?= lang_url('user') ?>" class="btn btn-orange"><?= lang('log_me_public_home') ?></a>
                             <?php } ?>
                         </div>
                         <span class="support-top">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            <a href="mailto:support@domain.com">support@domain.com</a>
+                            <a href="mailto:support@pminvoice.com">support@pminvoice.com</a>
                         </span>
                         <div class="clearfix"></div>  
                         <div id="site-top">

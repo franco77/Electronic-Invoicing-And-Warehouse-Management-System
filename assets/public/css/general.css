@@ -9,6 +9,7 @@ header .container {position:relative}
 header .login {float:right; background-color: #eb8900; padding: 5px 15px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; color: #fff; font-size:14px;}
 header .support-top {float: left; background-color: #eb8900; padding: 5px 15px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; font-size:14px; color: #fff;}
 header .support-top a {color: #fff;}
+header .btn-top-logme-xs {display: none;}
 
 #site-top {margin-top:40px; margin-bottom: 15px;}
 #site-top h1 {font-family: 'Shadows Into Light', cursive; font-size:30px; color:#eb8900; margin: 0;}
@@ -93,6 +94,7 @@ nav.navbar ul.dropdown-menu li a {border-radius: 0; margin-left:0;}
 #carousel-main #slide-2 .carousel-caption h4 {color:#777;}
 #carousel-main #slide-2 .carousel-caption p {margin-top: 40px;}
 #carousel-main #slide-2 .carousel-caption span {background-color:#eb8900; color:#fff;}
+#carousel-main #slide-2 .carousel-caption .el-invoices-img {margin-top:20px;}
 
 #after-carousel {background-color: #292929; padding-top:20px; padding-bottom:20px; color:#fff;}
 #after-carousel p { font-size:22px; font-weight: 300; margin: 0;}
@@ -203,6 +205,8 @@ nav.navbar ul.dropdown-menu li a {border-radius: 0; margin-left:0;}
 .inv-accept .refuse-reason {margin-bottom: 20px; width: 100%; font-size: 14px; padding: 10px;}
 .inv-accept .status-label {width:100%; margin-bottom: 20px; height: 40px; text-align: center; font-size: 16px; line-height: 40px;}
 
+.trusted-us {text-align:center;}
+
 @media (min-width: 992px) and (max-width: 1199px) { 
     footer {height: 390px;} 
     nav.navbar a.navbar-brand {position: absolute; margin-top:-40px;}
@@ -235,6 +239,7 @@ nav.navbar ul.dropdown-menu li a {border-radius: 0; margin-left:0;}
     #carousel-main #slide-2 .carousel-caption .left-side img.hand-made-cicle {width: 140px; margin-left: -20px;}
     #carousel-main #slide-2 .carousel-caption p {font-size:12px;}
     #carousel-main #slide-2 .carousel-caption h3.right-h3 {font-size:25px; margin-top: 130px;}
+    #carousel-main #slide-2 .carousel-caption .el-invoices-img {height:150px; margin-top:150px;}
     .intro p {font-size:16px;  line-height: 22px;}
     h2 {font-size:25px;}
     #site-top h1 {font-size:24px;}
@@ -265,7 +270,9 @@ nav.navbar ul.dropdown-menu li a {border-radius: 0; margin-left:0;}
     .icons-features {width: auto;}
     #support .contact-form input, #support .contact-form textarea {padding: 12px 12px 12px 54px; height: auto;} 
     #registration h1 {font-size:20px;}
-    header .support-top {float: right; }
+    #collapseLogin {background:none; padding:0;}
+    header .btn-top-logme-xs {display: block;}
+    #collapseLogin form {display: none;}
     .inv-accept h1 {font-size:18px;}
 	.before-carousel  {font-side:12px;}
 	#after-carousel p {font-size:16px;}
