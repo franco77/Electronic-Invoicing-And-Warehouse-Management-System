@@ -92,3 +92,4 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 define('COMPANIES_IMAGES_DIR', 'companiesimages');
 define('BLOG_IMAGES_DIR', 'blogimages');
 define('FEATURES_IMAGES_DIR', 'featuresimages');
+define('FREE_INV_PER_MONTH', 500);

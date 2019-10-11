@@ -201,6 +201,7 @@ class PublicModel extends CI_Model
 
     /*
      * Add first free plan when register
+     * -1 is for unlimited
      */
 
     public function addFirstFreePlan($user_id)
@@ -210,7 +211,7 @@ class PublicModel extends CI_Model
                     'from_date' => time(),
                     'to_date' => strtotime("+1 month", time()),
                     'plan_type' => 'PRO',
-                    'num_invoices' => -1,
+                    'num_invoices' => 500,
                     'num_firms' => 10,
                     'time' => time(),
                     'sponsored' => 1

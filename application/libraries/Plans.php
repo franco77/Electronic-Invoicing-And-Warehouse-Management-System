@@ -46,7 +46,7 @@ class Plans
     {
         $numArr = $this->CI->PlansModel->getNumInvoicesIssuedForOneMonth();
         $num = $numArr['num'];
-        return 5 - $num;
+        return FREE_INV_PER_MONTH - $num;
     }
 
     public function myCurrentPlanType()

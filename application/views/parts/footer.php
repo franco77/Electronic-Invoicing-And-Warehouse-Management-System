@@ -26,9 +26,9 @@
                     </div>
                     <div class="col-sm-3">
                         <h4><?= lang('payment_methods') ?></h4>
-                        <div class="payments"> 
+                        <div class="payments">
+                            <span>Free</span>
                             <img src="<?= base_url('assets/public/imgs/paypal-payment.png') ?>" alt="pminvoice.com paypal payment">
-                            <img src="<?= base_url('assets/public/imgs/sms-payment.png') ?>" alt="pminvoice.com sms payment">
                         </div>
                     </div>
                 </div>
